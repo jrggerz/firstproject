@@ -1,0 +1,21 @@
+{
+  "name": "babysteps",
+  "version": "1.0.0",
+  "description": "try simple html and http rest",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./index.js",
+    "dev": "nodemon ./index.js",
+    "start": "HTTPS=true HOST=nomeimportamucho.com PORT=3000 react-scripts start"
+  },
+  "author": "jrggerz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "ip": "^1.1.5",
+    "nodemon": "^2.0.15",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "react": "^17.0.2"
+  }
+}
