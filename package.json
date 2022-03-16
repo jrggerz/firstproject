@@ -4,7 +4,7 @@
   "description": "try simple html and http rest",
   "main": "index.js",
   "scripts": {
-    "test": "node ./index.js",
+    "test": "nodemon ./index.js",
     "dev": "nodemon ./index.js",
     "start": "HTTPS=true HOST=nomeimportamucho.com PORT=3000 react-scripts start"
   },
